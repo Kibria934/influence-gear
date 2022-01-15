@@ -10,6 +10,7 @@
         font-family: 'Raleway', sans-serif;
         font-family: 'Roboto Condensed', sans-serif;
         font-family: 'Ubuntu', sans-serif;
+      
 }
 main{
         width: 80%;
@@ -55,7 +56,7 @@ nav{
 ===============*/
 .banner-container{
         width: 100%;
-        height: 90%;
+        
 }
 .banner{
         display: grid;
@@ -63,6 +64,7 @@ nav{
         column-gap: 120px;
         align-items: center;      
         height: 800px; 
+        margin-bottom: 120px;
 }
 .left-side-banner{
         width: 600px;
@@ -119,6 +121,61 @@ nav{
         transform: translateY(4px);
         box-shadow: 0 5px rgb(59, 50, 50);
 }
-
-
-
+/* second section */
+.popular-collection{
+        width: 1047px;
+        height: 1600px;
+        margin:0 auto;
+}
+.heading-title{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.collections{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 200px;
+        row-gap: 4em;  
+        background-color: #fffcfc;    
+        justify-content: space-between;
+}
+.photo img{
+        padding-bottom: 20px;
+        width: 300px;
+        height: 256px;
+        border: 1px solid;
+        border-radius: 10px;
+        border: 0;
+}
+.photo-fram{
+        padding: 10px 1em;
+        border: 1px solid;
+        border-radius: 10px;
+        border: 0;
+        background-color: #ffffff;
+        margin-left: -40px;
+}
+.pic{
+        display: flex;
+        width: 15px;
+        height: 9px;
+        color: goldenrod;
+        align-items: center;     
+        margin-bottom: 5px;
+}
+#last{
+         color: rgb(197, 197, 197);
+}
+.photo-deatils h3{
+        color: #18191F;
+        font-size: 28px;
+}
+.photo-deatils p{
+        font-size: 16px;
+        line-height: 20px;
+}
+.price{
+        margin-bottom: 5px;
+        font-size: 24px;
+}
