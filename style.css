@@ -154,7 +154,8 @@ nav{
         border-radius: 10px;
         border: 0;
         background-color: #ffffff;
-        margin-left: -40px;
+        margin-left: -80px;
+        box-shadow: 0 10px 20px rgb(136, 133, 133);
 }
 .pic{
         display: flex;
@@ -179,3 +180,13 @@ nav{
         margin-bottom: 5px;
         font-size: 24px;
 }
+        /*================
+         section section end
+         ================= */
+         .view{
+                 text-align: end;
+                 font-size: 16px;
+                 color: rgba(224, 44, 109, 0.87);
+                 font-weight: bold;
+                 margin-top: -50px;
+         }
