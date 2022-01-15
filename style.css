@@ -358,4 +358,57 @@ nav{
                 }
                         
                        }
-               }
+                       /*------------------
+                              Tablet divice
+                        ------------------ */
+                        @media only screen and (min-width: 688px) and (max-width: 992px){
+                                .banner{
+                                        width: 100%;
+                                        grid-template-columns: repeat(2,1fr);
+                                        column-gap: 2em;
+                                        padding: 0 auto;
+                                        height: 100%;
+                                }
+                                .left-side-banner{
+                                        width: 400px;
+                                        height: 500px;
+                                        align-items: center;
+                                        padding-top: 100px;
+                                        
+                                }
+                                .right-side-banner{
+                                        width: 100%;
+                                        align-items: center;
+                                        height: 500px;
+                                }
+                                .booking-btn{
+                                        margin: left 10px;
+                                }
+                                .left-side-banner .title{
+                                        font-size: 40px;
+                                }
+                                .heading-title h2{
+                                        text-align: center;
+                                }
+                                .collections{
+                                        grid-template-columns: repeat(2,1fr);
+                                        column-gap: 1.5em;
+                                }
+                                .popular-collection{
+                                        width: 100%;
+                                       margin-left: 45px;
+                                }
+                                .common-style{
+                                        height: 500px;
+                                }
+                                .first-container img{
+                                        right: 75%;
+                                }
+                                .common-style img{
+                                        top: 290px;
+                                }
+                                .common-style h2{
+                                        top: 400px;
+                                }
+                        }
+                        
