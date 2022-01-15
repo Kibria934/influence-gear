@@ -277,49 +277,85 @@ nav{
                        margin-top: 10px;
                }
     /*=============
-                         Mobile screen 
+                       Mobile device
                          ===========*/
-               @media only screen and (min-width:688px) {
-                       main{
-                               width: 100%;
+               @media only screen and (max-width:688px) {
+                       .navigation ul{
+                               flex-wrap: wrap;
                        }
-                       .banner{
-                               grid-template-columns: repeat(2,1fr);
-                               height: 500px;
-
-                               
+                .banner{
+                        grid-template-columns: repeat(1,1fr);
+                }       
+                .left-side-banner{
+                        width: 90%;
+                        height: 100%;
+                        margin-bottom: 10px;
+                }
+                .details{
+                        text-align: justify;
+                }
+                .booking-btn{
+                        margin-bottom: 10px;
+                }
+                .right-side-banner{
+                        width: 90%;
+                        margin-bottom: 20px;
+                }
+                .popular-collection{
+                        height: 100%;
+                        width: 100%;
+                }
+                .heading-title{
+                        text-align: center;
+                        margin-top: 150px;
+                }
+                .collections{
+                               grid-template-columns: repeat(1,1fr);
                        }
-                       .left-side-banner{
-                               width: 50%;
-                               height: 100%;
-                               padding-left: 10px;
-                       }
-                       .right-side-banner{
-                               width: 50%;
-                               height: 100%;
-                       }
-                       .collections{
-                               grid-template-columns: repeat(2,1fr);
-                               padding-left: 20px;
-                                column-gap: 0;    
-                                    
+                .container{
+                               flex-direction: column;
                        }
                        .photo-fram{
-                               margin-left: 0;
-                               justify-content: space-around;
-                               width: 200px;
-
+                               display: grid;
+                               grid-template-columns: repeat(1,1fr);
+                               margin: 0 auto
                        }
-                       .view{
-                               margin-top: 20px;
-                               margin-bottom: 0;
+                       .testimoni{
+                               display: grid;
+                               grid-template-columns: repeat(1,1fr);
                        }
-               #testimoni{
-                       margin-top: 0;
+                       .test-container{
+                               grid-template-columns: repeat(1,1fr);
+                       }
+                       .first-container{
+                               display: block;
+                               margin: 10px 0;
+                       }
+                       .common-style{
+                               margin: 10px 0;
+                       }
+                .third-container img{
+                        position: relative;
+                        top: -10%;
+                }        
+                 .third-container h2{
+                         top:1200px;
+                 }
+                .second-container img{
+                        position: relative;
+                        top: -10%;
+                }  
+                .second-container h2{
+                        top: 790px;
+                }
+                .first-container img{
+                        position:relative;
+                        right: 100px;
+                        left: 10px;
+                }                
+                .first-container h2{
+                        right: 350px;
+                }
+                        
+                       }
                }
-               #text{
-                       margin-top: 10px;
-               }
-        } .photo{
-                padding-right: 20px;
-
