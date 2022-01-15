@@ -33,7 +33,7 @@ nav{
         border: 1px solid gray;
         background-color: rgb(255, 255, 255);
         border: 0;
-        margin-top: 95px;
+        margin-top: 50px;
 }
 .navigation ul{
         display: flex;
@@ -64,12 +64,12 @@ nav{
 ===============*/
 .banner-container{
         width: 100%;
+        height: 700px;
         
 }
 .banner{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        column-gap: 120px;
         align-items: center;      
         height: 800px; 
         margin-bottom: 120px;
@@ -77,8 +77,25 @@ nav{
 .left-side-banner{
         width: 600px;
         height: 270px;
+        display: flex;
+        flex-direction: column;
         
 }
+.booking-btn{
+        width: 250px;
+        background-color: #ee2c73;
+        padding: 10px 30px;
+        margin-top: 20px;
+        outline: none;
+        border: 0;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 25px;
+        font-size: 16px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 8px rgb(119, 105, 80);
+} 
 .right-side-banner{
         height:100%;
          display: flex;
@@ -103,20 +120,7 @@ nav{
         font-weight: 600;
         line-height: 24px;
 }
-.booking-btn{
-        background-color: #ee2c73;
-        padding: 10px 30px;
-        margin-top: 20px;
-        outline: none;
-        border: 0;
-        color: #fff;
-        font-weight: 700;
-        border-radius: 25px;
-        font-size: 16px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 8px rgb(119, 105, 80);
-} 
+
 
         /*===============
          button Transform
@@ -132,7 +136,7 @@ nav{
 /* second section */
 .popular-collection{
         width: 1047px;
-        height: 1600px;
+        max-height: 800pxpx;
         margin:0 auto;
 }
 .heading-title{
@@ -141,17 +145,17 @@ nav{
         margin-bottom: 20px;
 }
 .collections{
-        display: grid;
+        display:grid;
         grid-template-columns: repeat(3,1fr);
-        column-gap: 200px;
         row-gap: 4em;  
         background-color: #fffcfc;    
-        justify-content: space-between;
+        justify-content: center;
+        column-gap:40px;
 }
 .photo img{
         padding-bottom: 20px;
-        width: 300px;
-        height: 256px;
+        width: 100%;
+        height: 50%;
         border: 1px solid;
         border-radius: 10px;
         border: 0;
@@ -164,6 +168,9 @@ nav{
         background-color: #ffffff;
         margin-left: -80px;
         box-shadow: 0 10px 20px rgb(136, 133, 133);
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
 }
 .pic{
         display: flex;
@@ -206,6 +213,7 @@ nav{
                 color:#18191F ;
                 text-align: center;
                 margin-bottom: 20px;
+                margin-top: 150px;
          }
          
          .test-container{
@@ -216,12 +224,10 @@ nav{
                  position: relative;
          }
          .common-style{
-                 display: flex;
                  flex-direction: column;
                  align-items: center;
                  text-align: center;
                  flex-wrap: wrap;
-                 width: 400px;
                  height: 400px;
                  border: 1px solid;
                  border-radius: 10px;
@@ -270,4 +276,13 @@ nav{
                        height: 50px;
                        margin-top: 10px;
                }
-                
+                        /*=============
+                         Mobile screen 
+                         ===========*/
+               @media only screen and (min-width:688px) {
+                       .banner{
+                               
+                       }
+               }
+
+        
