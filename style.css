@@ -13,7 +13,7 @@
       
 }
 body{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
 }
 main{
@@ -114,6 +114,10 @@ nav{
 }
 .right-side-banner:hover img{
         box-shadow: 0 30px 100px 0 rgb(98, 47, 47);
+        transform: scale(1.23);
+        border: 1px solid;
+        transition: all 3s;
+
 }
 .title{
         font-size: 52px;
