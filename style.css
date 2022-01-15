@@ -189,4 +189,70 @@ nav{
                  color: rgba(224, 44, 109, 0.87);
                  font-weight: bold;
                  margin-top: -50px;
+                 margin-bottom: 50px;
          }
+         /* Testimonial */
+         
+         .test-container{
+                 display: grid;
+                 grid-template-columns: repeat(3,1fr);
+                 margin-top: 5px;
+                 column-gap: 40px;
+                 position: relative;
+         }
+         .common-style{
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 text-align: center;
+                 flex-wrap: wrap;
+                 width: 400px;
+                 height: 400px;
+                 border: 1px solid;
+                 border-radius: 10px;
+                 border: 0;
+                 box-shadow: 0 10px 30px 0 rgb(36, 35, 35);
+                
+         }
+          .common-style p{
+                font-size: 20px;
+                font-weight: 700px;
+                columns: #3A3A3A;
+                text-align: justify;
+                padding: 70px 20px;
+          }
+           .common-style img{
+                   width: 100px;
+                   height: 100px;
+                   border-radius: 10px;
+                   position: absolute;
+                   top:250px;
+           }
+           .common-style h2{
+                   top: 350px;
+                   position: absolute;
+           }
+                /* =============
+                        footer
+                 =============*/
+                  .text-footer{
+                         background-color: rgb(4, 4, 39);
+                         text-align: center;
+                         width: 100%;
+                        height: 200px;
+                        padding: 80px 0;
+                        line-height: 28px;
+                 }
+                 .footer{
+                        margin-top: 10%;
+                        border: 1px solid rgb(12, 11, 11);
+                        color: #D9DBE1;
+                        
+                 }
+               .fab{
+                       margin-right: 7px;
+                       width: 50px;
+                       height: 50px;
+                       margin-top: 10px;
+               }
+                
