@@ -24,7 +24,7 @@ nav{
 .logo{
         font-size: 26px;
         font-weight: 900;
-        color: #3A3A3A;
+        color: #222121;
 }
 .container{
         display: flex;
@@ -192,6 +192,13 @@ nav{
                  margin-bottom: 50px;
          }
          /* Testimonial */
+
+         #testimoni{
+                font-size: 40px;
+                color:#18191F ;
+                text-align: center;
+                margin-bottom: 20px;
+         }
          
          .test-container{
                  display: grid;
