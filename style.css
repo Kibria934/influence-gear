@@ -276,13 +276,50 @@ nav{
                        height: 50px;
                        margin-top: 10px;
                }
-                        /*=============
+    /*=============
                          Mobile screen 
                          ===========*/
                @media only screen and (min-width:688px) {
+                       main{
+                               width: 100%;
+                       }
                        .banner{
+                               grid-template-columns: repeat(2,1fr);
+                               height: 500px;
+
                                
                        }
-               }
+                       .left-side-banner{
+                               width: 50%;
+                               height: 100%;
+                               padding-left: 10px;
+                       }
+                       .right-side-banner{
+                               width: 50%;
+                               height: 100%;
+                       }
+                       .collections{
+                               grid-template-columns: repeat(2,1fr);
+                               padding-left: 20px;
+                                column-gap: 0;    
+                                    
+                       }
+                       .photo-fram{
+                               margin-left: 0;
+                               justify-content: space-around;
+                               width: 200px;
 
-        
+                       }
+                       .view{
+                               margin-top: 20px;
+                               margin-bottom: 0;
+                       }
+               #testimoni{
+                       margin-top: 0;
+               }
+               #text{
+                       margin-top: 10px;
+               }
+        } .photo{
+                padding-right: 20px;
+
